@@ -1,0 +1,16 @@
+PODS:
+  - ZHEverlastingThread (1.0)
+
+DEPENDENCIES:
+  - ZHEverlastingThread (from `../`)
+
+EXTERNAL SOURCES:
+  ZHEverlastingThread:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHEverlastingThread: 3741ae60f40c095fbf06d23fd9a000e239180baf
+
+PODFILE CHECKSUM: 61280efebd5ee0555f2f4ad9b1383f742ab8c636
+
+COCOAPODS: 1.6.1

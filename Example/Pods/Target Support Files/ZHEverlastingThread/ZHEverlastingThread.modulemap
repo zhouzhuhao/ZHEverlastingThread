@@ -1,0 +1,6 @@
+framework module ZHEverlastingThread {
+  umbrella header "ZHEverlastingThread-umbrella.h"
+
+  export *
+  module * { export * }
+}
