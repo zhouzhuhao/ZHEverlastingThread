@@ -22,7 +22,7 @@ pod 'ZHEverlastingThread'
 
 ## Author
 
-zhouzhuhao, johnzhuhaochow@gmail.com
+johnzhuhaochow@gmail.com
 
 ## License
 
