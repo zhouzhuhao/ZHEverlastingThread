@@ -16,12 +16,29 @@
 
 @implementation ZHViewController
 
+- (void)loadBundleImage {
+//  1. 加载bundle中的图片资源，本质就是找到bundle位置，然后加载图片
+//	2. NSClassFromString(@"ZHEverlastingThread") 一定程度上解耦
+	Class cls = NSClassFromString(@"ZHEverlastingThread");
+	NSBundle *bundle = [NSBundle bundleForClass:cls];
+	NSURL *bundleUrl = [bundle URLForResource:@"ZHEverlastingThread" withExtension:@".bundle"];
+		//	[[NSBundle mainBundle] URLForResource:@"ZHEverlastingThread" withExtension:@"bundle"];
+	bundle = [NSBundle bundleWithURL:bundleUrl];
+	UIImageView *imageview = [[UIImageView alloc] init];
+	NSLog(@"bundle = %@",bundle);
+	imageview.image = [UIImage imageNamed:@"nothinginview" inBundle:bundle compatibleWithTraitCollection:false];
+	imageview.frame = CGRectMake(20, 50, 100, 330);
+	[self.view addSubview:imageview];
+	
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
 	self.thread = [[ZHEverlastingThread alloc] init];
+//	[self loadBundleImage];
 
 }
 

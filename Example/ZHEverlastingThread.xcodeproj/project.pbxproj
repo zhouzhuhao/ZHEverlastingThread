@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20FB508A095B40469E28728C /* Pods_ZHEverlastingThread_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246CE74714BD03F67AD5D63A /* Pods_ZHEverlastingThread_Example.framework */; };
-		300023129C2D41967CC159E6 /* Pods_ZHEverlastingThread_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA64D6AF6780824EAA3C3814 /* Pods_ZHEverlastingThread_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C20F5A940E8B777CC59F396C /* Pods_ZHEverlastingThread_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EE476A9A8427EC9DD91CD1 /* Pods_ZHEverlastingThread_Example.framework */; };
+		C36EDFBEBF4DD7FCD0CDB26B /* Pods_ZHEverlastingThread_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1750335D9BE434EFEFE3B687 /* Pods_ZHEverlastingThread_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		520D2A38229F7F69005F72A9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		035DF1EC9C72F4E764BC3C92 /* Pods-ZHEverlastingThread_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHEverlastingThread_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example.release.xcconfig"; sourceTree = "<group>"; };
-		246CE74714BD03F67AD5D63A /* Pods_ZHEverlastingThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1750335D9BE434EFEFE3B687 /* Pods_ZHEverlastingThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24873D1150306C1F09CA543E /* Pods-ZHEverlastingThread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHEverlastingThread_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHEverlastingThread_Tests/Pods-ZHEverlastingThread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZHEverlastingThread_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHEverlastingThread_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +77,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A0ED76F443DC4AEDCD1137F /* ZHEverlastingThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHEverlastingThread.podspec; path = ../ZHEverlastingThread.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFE484C03BD6A65FD36F28A1 /* Pods-ZHEverlastingThread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHEverlastingThread_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZHEverlastingThread_Tests/Pods-ZHEverlastingThread_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CA64D6AF6780824EAA3C3814 /* Pods_ZHEverlastingThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBA386AC34861EED1931EE5 /* Pods-ZHEverlastingThread_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHEverlastingThread_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DF20CFE65B03F9BFABA3E2B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8EE476A9A8427EC9DD91CD1 /* Pods_ZHEverlastingThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +90,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				20FB508A095B40469E28728C /* Pods_ZHEverlastingThread_Example.framework in Frameworks */,
+				C20F5A940E8B777CC59F396C /* Pods_ZHEverlastingThread_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +101,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				300023129C2D41967CC159E6 /* Pods_ZHEverlastingThread_Tests.framework in Frameworks */,
+				C36EDFBEBF4DD7FCD0CDB26B /* Pods_ZHEverlastingThread_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +136,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				246CE74714BD03F67AD5D63A /* Pods_ZHEverlastingThread_Example.framework */,
-				CA64D6AF6780824EAA3C3814 /* Pods_ZHEverlastingThread_Tests.framework */,
+				F8EE476A9A8427EC9DD91CD1 /* Pods_ZHEverlastingThread_Example.framework */,
+				1750335D9BE434EFEFE3B687 /* Pods_ZHEverlastingThread_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +220,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				143A1B4314B9D5D1937C5F38 /* [CP] Embed Pods Frameworks */,
+				520D2A38229F7F69005F72A9 /* Embed Frameworks */,
+				DBB456DB03A5354328ECC298 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,28 +331,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		143A1B4314B9D5D1937C5F38 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZHEverlastingThread/ZHEverlastingThread.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHEverlastingThread.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4FC951F68356080299D4F212 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +351,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB456DB03A5354328ECC298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZHEverlastingThread/ZHEverlastingThread.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHEverlastingThread.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHEverlastingThread_Example/Pods-ZHEverlastingThread_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,6 +516,7 @@
 				GCC_PREFIX_HEADER = "ZHEverlastingThread/ZHEverlastingThread-Prefix.pch";
 				INFOPLIST_FILE = "ZHEverlastingThread/ZHEverlastingThread-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +533,7 @@
 				GCC_PREFIX_HEADER = "ZHEverlastingThread/ZHEverlastingThread-Prefix.pch";
 				INFOPLIST_FILE = "ZHEverlastingThread/ZHEverlastingThread-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

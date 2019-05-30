@@ -1,8 +1,8 @@
 {
   "name": "ZHEverlastingThread",
-  "version": "1.0",
+  "version": "1.0.1",
   "summary": "Keep thread running until you do not want it.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "homepage": "https://github.com/zhouzhuhao/ZHEverlastingThread",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/zhouzhuhao/ZHEverlastingThread.git",
-    "tag": "1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZHEverlastingThread/Classes/**/*"
+  "source_files": "ZHEverlastingThread/Classes/**/*",
+  "resource_bundles": {
+    "ZHEverlastingThread": [
+      "ZHEverlastingThread/Assets/*.png"
+    ]
+  }
 }

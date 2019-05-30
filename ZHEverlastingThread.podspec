@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHEverlastingThread'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
 	s.summary          = 'Keep thread running until you do not want it.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,10 @@ TODO: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
   s.source_files = 'ZHEverlastingThread/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZHEverlastingThread' => ['ZHEverlastingThread/Assets/*.png']
-  # }
+  s.resource_bundles = {
+	 'ZHEverlastingThread' => ['ZHEverlastingThread/Assets/*.png']
+	 #'ZHEverlastingThread' => ['ZHEverlastingThread/Assets/*.xcassets']
+}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
