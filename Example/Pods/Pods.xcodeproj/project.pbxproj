@@ -20,7 +20,6 @@
 		9A4F3ED2DD7488F5CA0534F1E7BC031B /* ZHEverlastingThread-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB60FD06F980ECCFDF6339517F61B6 /* ZHEverlastingThread-dummy.m */; };
 		C09E2D52CAF9517C2FFC2F8043C4F114 /* ZHEverlastingThread-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93ECA5AF537CF32550E005EC23ADDE20 /* ZHEverlastingThread-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB9D68DE6C1FAC25CD405B510F7DB7DE /* ZHEverlastingThread.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E61A47D41787EF0EBD1CDA4C25C423E7 /* ZHEverlastingThread.bundle */; };
-		EE84780BFCE65CA0D1FEF7877C9FDBBD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E362B4F471750CFA9C40ECD9509D5BD7 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +48,12 @@
 
 /* Begin PBXFileReference section */
 		06DE413272C104C19E9A0CF5C30C197D /* Pods-ZHEverlastingThread_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHEverlastingThread_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0AB5141F8B8E7BB7BC5499CAA0FCBF06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0AB5141F8B8E7BB7BC5499CAA0FCBF06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0D085314DF719F9798F406D6A5248CC2 /* Pods-ZHEverlastingThread_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHEverlastingThread_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0DA2FE966BA90707C94D0B0B5115A49D /* ZHEverlastingThread-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHEverlastingThread-prefix.pch"; sourceTree = "<group>"; };
 		24621E34E79DAC37A434FE576668CE89 /* ZHEverlastingThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHEverlastingThread.h; path = ZHEverlastingThread/Classes/ZHEverlastingThread.h; sourceTree = "<group>"; };
 		25A6FF137FD678E3E65488F5818C6498 /* ZHEverlastingThread-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHEverlastingThread-Info.plist"; sourceTree = "<group>"; };
-		38B09B4B01A3AC27CE8204200B62CCB8 /* Pods_ZHEverlastingThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHEverlastingThread_Tests.framework; path = "Pods-ZHEverlastingThread_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B09B4B01A3AC27CE8204200B62CCB8 /* Pods_ZHEverlastingThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B668BA6B65E7947CF5CC4EBF99D3B73 /* Pods-ZHEverlastingThread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHEverlastingThread_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45299245EF6EEBFF7A97BA91AA9D1D06 /* Pods-ZHEverlastingThread_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHEverlastingThread_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E292F44DF01BF505DAA55A9BE6B0FD3 /* Pods-ZHEverlastingThread_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHEverlastingThread_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -63,7 +62,7 @@
 		5B8746415D1FE3B8137E74B978CAF3EA /* Pods-ZHEverlastingThread_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHEverlastingThread_Tests-dummy.m"; sourceTree = "<group>"; };
 		5D335F9FE019B436B31C65F61C486C98 /* Pods-ZHEverlastingThread_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHEverlastingThread_Tests.modulemap"; sourceTree = "<group>"; };
 		62CEF37B4A1FEA5BA621C4374184CD97 /* nothinginview@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nothinginview@2x.png"; path = "ZHEverlastingThread/Assets/nothinginview@2x.png"; sourceTree = "<group>"; };
-		6E1AC5A3DBA0ED904BFE02A9050C5E95 /* ZHEverlastingThread.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHEverlastingThread.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E1AC5A3DBA0ED904BFE02A9050C5E95 /* ZHEverlastingThread.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZHEverlastingThread.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6ED6B1F2F03F8D797460ECC4B12B3ACD /* Pods-ZHEverlastingThread_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHEverlastingThread_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F46006DEF7C2C527554EA2893A87AE7 /* Pods-ZHEverlastingThread_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHEverlastingThread_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		71E5535AC8B0A8BAF240B46F4A18B90E /* Pods-ZHEverlastingThread_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHEverlastingThread_Example-dummy.m"; sourceTree = "<group>"; };
@@ -72,18 +71,17 @@
 		8ACBBE553EACA63C820EC17CD9D9418D /* Pods-ZHEverlastingThread_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHEverlastingThread_Example-umbrella.h"; sourceTree = "<group>"; };
 		8AE11976E2A870B3D4C379AA5CA0860C /* Pods-ZHEverlastingThread_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHEverlastingThread_Example.modulemap"; sourceTree = "<group>"; };
 		93ECA5AF537CF32550E005EC23ADDE20 /* ZHEverlastingThread-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHEverlastingThread-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD459252CE4FB613084BDD33B192872B /* ZHEverlastingThread.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHEverlastingThread.modulemap; sourceTree = "<group>"; };
 		AD887DACC2179EEA3514F00A241D3DA4 /* Pods-ZHEverlastingThread_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHEverlastingThread_Example-Info.plist"; sourceTree = "<group>"; };
 		C651757565E6FE3680A3F73E553A31AD /* ZHEverlastingThread.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHEverlastingThread.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CEFB60FD06F980ECCFDF6339517F61B6 /* ZHEverlastingThread-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHEverlastingThread-dummy.m"; sourceTree = "<group>"; };
 		D1E3365AF4DD06B95FBF0A90DA44C2EF /* ResourceBundle-ZHEverlastingThread-ZHEverlastingThread-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZHEverlastingThread-ZHEverlastingThread-Info.plist"; sourceTree = "<group>"; };
-		DB5D104BEA6228BA597BCB25927DDCAA /* ZHEverlastingThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHEverlastingThread.framework; path = ZHEverlastingThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA2590DEA148D10701D5A573F282485 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E362B4F471750CFA9C40ECD9509D5BD7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZHEverlastingThread/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E61A47D41787EF0EBD1CDA4C25C423E7 /* ZHEverlastingThread.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZHEverlastingThread.bundle; path = "ZHEverlastingThread-ZHEverlastingThread.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE827328D9467007266890DE2D5EB6FB /* Pods_ZHEverlastingThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHEverlastingThread_Example.framework; path = "Pods-ZHEverlastingThread_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5D104BEA6228BA597BCB25927DDCAA /* ZHEverlastingThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHEverlastingThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA2590DEA148D10701D5A573F282485 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E61A47D41787EF0EBD1CDA4C25C423E7 /* ZHEverlastingThread.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHEverlastingThread.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE827328D9467007266890DE2D5EB6FB /* Pods_ZHEverlastingThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHEverlastingThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F180162EC7F2E7859A92B7DCC82ED309 /* Pods-ZHEverlastingThread_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHEverlastingThread_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,7 +208,6 @@
 		D82EF364788E48A13DE2CA0EAD0E07B0 /* ZHEverlastingThread */ = {
 			isa = PBXGroup;
 			children = (
-				E362B4F471750CFA9C40ECD9509D5BD7 /* ReplaceMe.m */,
 				24621E34E79DAC37A434FE576668CE89 /* ZHEverlastingThread.h */,
 				5364F239F31E371FEF1974D160143C67 /* ZHEverlastingThread.m */,
 				FDC3BCBBF53A6A33702CF1BF092CDBCC /* Pod */,
@@ -376,6 +373,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -445,7 +443,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE84780BFCE65CA0D1FEF7877C9FDBBD /* ReplaceMe.m in Sources */,
 				9A4F3ED2DD7488F5CA0534F1E7BC031B /* ZHEverlastingThread-dummy.m in Sources */,
 				8A24AE23AFC7EF0138C0CDC57FF421A1 /* ZHEverlastingThread.m in Sources */,
 			);
@@ -743,8 +740,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
