@@ -54,7 +54,7 @@
 - (void)zh_executeTask:(ZHEverlastingThreadTask)task
 {
 	if (!self.innerThread || !task) return;
-	
+	// 执行  
 	[self performSelector:@selector(__executeTask:) onThread:self.innerThread withObject:task waitUntilDone:NO];
 }
 
